@@ -1,6 +1,6 @@
 const model = require('../models/nosql/user')
 const express = require("express");
-/* 
+/*
 obtiene las usuarios.
 */
 

@@ -5,10 +5,10 @@ const UsersScheme = new mongoose.Schema(
 name: {
     type: String
 },
-ID: {
+/*ID: {
     type: String,
     unique:true
-}, 
+},*/
 email:{
     type:String,
     unique:true
