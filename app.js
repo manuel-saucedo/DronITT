@@ -9,12 +9,13 @@ const dbConnect = require('./config/mongo');
 const app = express()
 const userRoutes = require('./routes/user')
 const plantRoutes = require('./routes/plants')
+app.use(bodyParser.json())
 
 //rutes
 app.use(userRoutes)
 app.use(plantRoutes)
 
- 
+
 app.use(cors());
 app.use(helmet());
 
